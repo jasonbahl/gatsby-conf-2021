@@ -4,45 +4,19 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Gatsby, WordPress and WPGraphQL demo for Gatsby Conf 2021
 </h1>
 
-## 🚀 Quick start
+## ℹ️ Overview
 
-1.  **Create a Gatsby site.**
+This repo is an example used for the WordPress, Gatsby and WPGraphQL Workshop at GatsbyConf 2021. 
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+This repo serves as a learning resource for using Gatsby with WordPress. 
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+It will not be maintained beyond the conference.
 
-2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+## 📹 Gatsby Conf Video
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+This repo will be best used as a reference to the Gatsby Conf talk which will be recorded and put on
+the [Gatsby YouTube Channel](https://www.youtube.com/channel/UCjnp770qk7ujOq8Q9wiC82w).
