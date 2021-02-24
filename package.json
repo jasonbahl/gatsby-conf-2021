@@ -29,6 +29,7 @@
     "emotion-theming": "^10.0.27",
     "framer-motion": "^3.7.0",
     "gatsby": "^2.32.3",
+    "gatsby-plugin-image": "^0.7.2",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-sharp": "^2.8.0",
     "gatsby-source-wordpress": "4.0.2",
