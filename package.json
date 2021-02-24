@@ -1,1 +1,53 @@
-{"name":"gatsby-conf-demo","version":"1.0.0","private":true,"description":"Gatsby Conf Demo","author":"Jason Bahl","keywords":["gatsby"],"scripts":{"develop":"gatsby develop","start":"gatsby develop","build":"gatsby build","serve":"gatsby serve","clean":"gatsby clean"},"dependencies":{"gatsby":"^2.32.3","react":"^16.13.1","react-dom":"^16.13.1"}}
+{
+  "name": "gatsby-conf-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gatsby Conf Demo",
+  "author": "Jason Bahl",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "pretty": "prettier . --write"
+  },
+  "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^1.0.0",
+    "@chakra-ui/icons": "^1.0.0",
+    "@chakra-ui/react": "^1.0.0",
+    "@emotion/is-prop-valid": "^0.8.8",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@theme-ui/core": "^0.3.1",
+    "@theme-ui/match-media": "^0.3.1",
+    "@theme-ui/prism": "^0.3.0",
+    "copy-to-clipboard": "^3.3.1",
+    "emotion-theming": "^10.0.27",
+    "framer-motion": "^3.7.0",
+    "gatsby": "^2.32.3",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-sharp": "^2.8.0",
+    "gatsby-source-wordpress": "4.0.2",
+    "gatsby-transformer-sharp": "^2.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-html-parser": "^2.0.2"
+  },
+  "devDependencies": {
+    "husky": ">=4",
+    "prettier": "^2.1.2"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx,md,json,yml,css}": "prettier --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

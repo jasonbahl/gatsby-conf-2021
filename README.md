@@ -9,12 +9,11 @@
 
 ## ℹ️ Overview
 
-This repo is an example used for the WordPress, Gatsby and WPGraphQL Workshop at GatsbyConf 2021. 
+This repo is an example used for the WordPress, Gatsby and WPGraphQL Workshop at GatsbyConf 2021.
 
-This repo serves as a learning resource for using Gatsby with WordPress. 
+This repo serves as a learning resource for using Gatsby with WordPress.
 
 It will not be maintained beyond the conference.
-
 
 ## 📹 Gatsby Conf Video
 
