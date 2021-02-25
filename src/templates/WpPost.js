@@ -2,7 +2,7 @@ import React from "react"
 import {Container, Heading, Link, Text} from "@chakra-ui/react";
 import {graphql, Link as GatsbyLink} from "gatsby";
 
-const WpPost = ({data}) => {
+const WpPost = ({ data }) => {
     const { wpPost } = data;
     return(
         <Container maxW="xl" centerContent>
@@ -22,11 +22,8 @@ export default WpPost;
 export const query = graphql`
 query PostById($id: String) {
   wpPost(id: {eq: $id}) {
-    __typename
-    id
-    uri
     title
     content
   }
 }
-`
+`;
