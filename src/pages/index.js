@@ -20,7 +20,9 @@ const HomePage = () => {
 
   return (
     <Container maxW="xl" centerContent>
-      <Heading as={`h1`} m={5}>#100DaysOfGatsby</Heading>
+      <Heading as={`h1`} m={4}>
+        #100DaysOfGatsby
+      </Heading>
       <Stack spacing={8}>
         {allWpPost.nodes.map(({ id, title, excerpt, uri }) => (
           <Box key={id} p={5} shadow="md" borderWidth="1px">
