@@ -27,7 +27,7 @@ const HomePage = () => {
         {allWpPost.nodes.map(({ id, title, excerpt, uri }) => (
           <Box key={id} p={5} shadow="md" borderWidth="1px">
             <Heading as={`h2`}>{title}</Heading>
-            <Text mt={4}>
+            <Text as="div" mt={4}>
               <div dangerouslySetInnerHTML={{ __html: excerpt }} />
             </Text>
             <Link as={GatsbyLink} to={uri}>
