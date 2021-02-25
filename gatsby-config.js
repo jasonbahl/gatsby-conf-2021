@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: `https://jsonbahl.wpengine.com/graphql`
-      }
+        url: `https://jsonbahl.wpengine.com/graphql`,
+      },
     },
     {
       resolve: "@chakra-ui/gatsby-plugin",
