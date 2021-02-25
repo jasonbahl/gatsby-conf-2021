@@ -28,7 +28,7 @@ const HomePage = () => {
           <Box key={id} p={5} shadow="md" borderWidth="1px">
             <Heading as={`h2`}>{title}</Heading>
             <Text mt={4}>
-              <span dangerouslySetInnerHTML={{ __html: excerpt }} />
+              <div dangerouslySetInnerHTML={{ __html: excerpt }} />
             </Text>
             <Link as={GatsbyLink} to={uri}>
               Read More >>
